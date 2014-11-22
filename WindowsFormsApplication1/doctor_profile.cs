@@ -14,7 +14,7 @@ namespace WindowsFormsApplication1
     public partial class doctor_profile : Form
     {
         SqlConnection con = new SqlConnection(global::WindowsFormsApplication1.Properties.Settings.Default.inside_470ConnectionString);
-
+        SqlConnection con2 = new SqlConnection(global::WindowsFormsApplication1.Properties.Settings.Default.inside_470ConnectionString);
         public doctor_profile(string value)
         {
             InitializeComponent();
@@ -91,7 +91,154 @@ namespace WindowsFormsApplication1
                 con.Close();
             }
 
+            if (checkBox1.Checked)
+            {
+                Random ran = new Random();
+                int num_ran = ran.Next(1, 500);
+                string combo=comboBox1.Text;
+                string sql1 = "INSERT INTO [time_for_doc] (time_id,sunday,time_allocate,f_doc_id) values (" + num_ran + ", " + 1 + ",'"+combo+"', "+id+")" ;
+                try
+                {
+                    SqlCommand exe = new SqlCommand(sql1,con2);
+                    con2.Open();
+                    exe.ExecuteNonQuery();
 
+                }
+                catch (Exception en)
+                {
+
+                    MessageBox.Show(en.Message, "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                finally {
+                    con2.Close();
+                }
+            }
+
+            if (checkBox2.Checked)
+            {
+                Random ran = new Random();
+                int num_ran = ran.Next(1, 500);
+                string combo = comboBox1.Text;
+                string sql1 = "INSERT INTO [time_for_doc] (time_id,monday,time_allocate,f_doc_id) values (" + num_ran + ", " + 1 + ",'" + combo + "', " + id + ")";
+                try
+                {
+                    SqlCommand exe = new SqlCommand(sql1, con2);
+                    con2.Open();
+                    exe.ExecuteNonQuery();
+
+                }
+                catch (Exception en)
+                {
+
+                    MessageBox.Show(en.Message, "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                finally
+                {
+                    con2.Close();
+                }
+            }
+
+            if (checkBox3.Checked)
+            {
+                Random ran = new Random();
+                int num_ran = ran.Next(1, 500);
+                string combo = comboBox1.Text;
+                string sql1 = "INSERT INTO [time_for_doc] (time_id,tuesday,time_allocate,f_doc_id) values (" + num_ran + ", " + 1 + ",'" + combo + "', " + id + ")";
+                try
+                {
+                    SqlCommand exe = new SqlCommand(sql1, con2);
+                    con2.Open();
+                    exe.ExecuteNonQuery();
+
+                }
+                catch (Exception en)
+                {
+
+                    MessageBox.Show(en.Message, "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                finally
+                {
+                    con2.Close();
+                }
+            }
+
+            if (checkBox4.Checked)
+            {
+                Random ran = new Random();
+                int num_ran = ran.Next(1, 500);
+                string combo = comboBox1.Text;
+                string sql1 = "INSERT INTO [time_for_doc] (time_id,wednesday,time_allocate,f_doc_id) values (" + num_ran + ", " + 1 + ",'" + combo + "', " + id + ")";
+                try
+                {
+                    SqlCommand exe = new SqlCommand(sql1, con2);
+                    con2.Open();
+                    exe.ExecuteNonQuery();
+
+                }
+                catch (Exception en)
+                {
+
+                    MessageBox.Show(en.Message, "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                finally
+                {
+                    con2.Close();
+                }
+            }
+
+            if (checkBox5.Checked)
+            {
+                Random ran = new Random();
+                int num_ran = ran.Next(1, 500);
+                string combo = comboBox1.Text;
+                string sql1 = "INSERT INTO [time_for_doc] (time_id,thursday,time_allocate,f_doc_id) values (" + num_ran + ", " + 1 + ",'" + combo + "', " + id + ")";
+                try
+                {
+                    SqlCommand exe = new SqlCommand(sql1, con2);
+                    con2.Open();
+                    exe.ExecuteNonQuery();
+
+                }
+                catch (Exception en)
+                {
+
+                    MessageBox.Show(en.Message, "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                finally
+                {
+                    con2.Close();
+                }
+            }
+
+            if (checkBox6.Checked)
+            {
+                Random ran = new Random();
+                int num_ran = ran.Next(1, 500);
+                string combo = comboBox1.Text;
+                string sql1 = "INSERT INTO [time_for_doc] (time_id,saturday,time_allocate,f_doc_id) values (" + num_ran + ", " + 1 + ",'" + combo + "', " + id + ")";
+                try
+                {
+                    SqlCommand exe = new SqlCommand(sql1, con2);
+                    con2.Open();
+                    exe.ExecuteNonQuery();
+
+                }
+                catch (Exception en)
+                {
+
+                    MessageBox.Show(en.Message, "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                finally
+                {
+                    con2.Close();
+                }
+            }
         }
 
         private void userTextBox_TextChanged(object sender, EventArgs e)
@@ -102,7 +249,7 @@ namespace WindowsFormsApplication1
         private void button2_Click(object sender, EventArgs e)
         {
             //something has to be done
-            string sql = "SELECT * from [doc_info]";
+            string sql = "SELECT * from [time_for_doc]";
             try
             {
                 SqlCommand exeSql = new SqlCommand(sql, con);
@@ -114,7 +261,7 @@ namespace WindowsFormsApplication1
                 while (reader.Read())
                 {
 
-                    val = val + reader.GetInt32(0).ToString() + " "+reader.GetString(1).ToString();
+                    val = val + reader.GetInt32(0).ToString() + " "+reader.GetInt32(8).ToString();
                 }
 
                 MessageBox.Show(val, "Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
