@@ -12,9 +12,10 @@ namespace WindowsFormsApplication1
 {
     public partial class Doctor_s_Form : Form
     {
-        public Doctor_s_Form()
+        public Doctor_s_Form(string val)
         {
             InitializeComponent();
+            label1.Text = "Welcome Doc "+val+" have a nice time";
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
