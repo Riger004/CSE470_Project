@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
 namespace WindowsFormsApplication1
 {
     public partial class Doctor_s_Form : Form
@@ -25,6 +25,8 @@ namespace WindowsFormsApplication1
 
         private void Doctor_s_Form_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'inside_470DataSet.patient_info' table. You can move, or remove it, as needed.
+            this.patient_infoTableAdapter.Fill(this.inside_470DataSet.patient_info);
 
         }
 
@@ -53,6 +55,11 @@ namespace WindowsFormsApplication1
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Show();
         }
         }
     }

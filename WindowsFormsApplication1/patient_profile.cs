@@ -136,7 +136,7 @@ namespace WindowsFormsApplication1
                     }
                     if (num != 0)
                     {
-                        appointment form = new appointment();
+                        Appointment form = new Appointment(num+"");
                         form.Show();
                         this.Hide();
                     }

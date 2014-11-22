@@ -77,7 +77,7 @@ namespace WindowsFormsApplication1
                 SqlCommand exeSql = new SqlCommand(sql, con);
                 con.Open();
                 exeSql.ExecuteNonQuery();
-                MessageBox.Show("Saved", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Saved", "Congrats", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Doctor_s_Form newForm = new Doctor_s_Form(name);
                 newForm.Show();
                 this.Hide(); 
