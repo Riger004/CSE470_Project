@@ -32,19 +32,30 @@ namespace WindowsFormsApplication1
                 con.Open();
                 SqlDataReader reader = exeSql.ExecuteReader();
                 bool contain=false;
-                //string val = "";
+                string val = "";
                 while(reader.Read()){
                     if (reader.GetString(0) == user_id && reader.GetString(2)==pass) {
                         contain = true;
+                        val = val + reader.GetString(3);
                     }
-                    //val = val+reader.GetString(0)+" "+reader.GetString(1);
+                    
                 }
 
                 if (contain)
                 {
                     MessageBox.Show("success", "message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    Doctor_s_Form newForm = new Doctor_s_Form(textBox2.Text);
-                    newForm.Show();
+                    if (val.Equals("Doctor"))
+                    {
+                        Doctor_s_Form newForm = new Doctor_s_Form(user_id);
+                        newForm.Show();
+                        this.Hide();
+                    }
+                    else {
+                        patient_profile form = new patient_profile(user_id);
+                        form.Show();
+                        this.Hide();
+
+                    }
                 }
                 else {
                     MessageBox.Show("Not-Success", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);

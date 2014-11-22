@@ -34,17 +34,12 @@ namespace WindowsFormsApplication1
         {
             registration newForm = new registration();
             newForm.Show();
-            
-           // try            {
-           //     var sw = new System.IO.StreamWriter("C:\\"+ textBox1.Text + "\\User Name");
-           //     sw.Write(textBox1.Text);
-           //     sw.Close();
-           //        }
-           // catch(System.IO.DirectoryNotFoundException ex)            {
-           //     MessageBox("Folder Not Found");
-           //     System.IO.Directory.CreateDirectory("C:\\" + textBox1.Text);
-           // }
+        }
 
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            registration form = new registration();
+            form.Show();
         }
     }
 }

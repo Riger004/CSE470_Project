@@ -102,5 +102,61 @@ namespace WindowsFormsApplication1
                 con.Close();
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string user_id = label9.Text;
+            string sql = "SELECT user_id from [log_info] where  (user_id ='"+user_id+"')";
+            try
+            {
+                SqlCommand exe = new SqlCommand(sql, con);
+                con.Open();
+                SqlDataReader reader = exe.ExecuteReader();
+
+                bool contain = false;
+
+                while(reader.Read()){
+                    if (user_id.Equals(reader.GetString(0))) {
+                        contain = true;
+                    }
+                }
+
+                if (contain)
+                {
+                    con.Close();
+                    string sql2 = "SELECT patient_id from [patient_info] where  (f_user_id ='" + user_id + "')";
+                    exe = new SqlCommand(sql2, con);
+                    con.Open();
+                    reader = exe.ExecuteReader();
+                    int num = 0;
+
+                    while (reader.Read())
+                    {
+                        num = reader.GetInt32(0);
+                    }
+                    if (num != 0)
+                    {
+                        appointment form = new appointment();
+                        form.Show();
+                        this.Hide();
+                    }
+                    else {
+                        MessageBox.Show("Please Create your profile before making an appointment", "Contain", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    }
+                }
+                else {
+                    MessageBox.Show("Please Create your profile before making an appointment", "Contain", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                }
+               
+
+            }
+            catch (Exception en)
+            {
+                MessageBox.Show(en.Message + "sorry your patient id doesn't exist you have to create you profile", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally {
+                con.Close();
+            }
+        }
     }
 }
