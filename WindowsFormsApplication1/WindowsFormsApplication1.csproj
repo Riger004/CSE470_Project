@@ -59,6 +59,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Checker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Checker.Designer.cs">
+      <DependentUpon>Admin_Checker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Appointment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,17 +99,23 @@
     <Compile Include="doctor_profile.Designer.cs">
       <DependentUpon>doctor_profile.cs</DependentUpon>
     </Compile>
-    <Compile Include="doc_secure_code.cs">
+    <Compile Include="Drug_profile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="doc_secure_code.Designer.cs">
-      <DependentUpon>doc_secure_code.cs</DependentUpon>
+    <Compile Include="Drug_profile.Designer.cs">
+      <DependentUpon>Drug_profile.cs</DependentUpon>
     </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="new_doc_reg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new_doc_reg.Designer.cs">
+      <DependentUpon>new_doc_reg.cs</DependentUpon>
     </Compile>
     <Compile Include="patient_profile.cs">
       <SubType>Form</SubType>
@@ -121,6 +139,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>inside_470DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="prescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prescription.Designer.cs">
+      <DependentUpon>prescription.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="registration.cs">
@@ -129,6 +153,12 @@
     <Compile Include="registration.Designer.cs">
       <DependentUpon>registration.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Checker.resx">
+      <DependentUpon>Admin_Checker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Appointment.resx">
       <DependentUpon>Appointment.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,17 +168,23 @@
     <EmbeddedResource Include="doctor_profile.resx">
       <DependentUpon>doctor_profile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="doc_secure_code.resx">
-      <DependentUpon>doc_secure_code.cs</DependentUpon>
+    <EmbeddedResource Include="Drug_profile.resx">
+      <DependentUpon>Drug_profile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new_doc_reg.resx">
+      <DependentUpon>new_doc_reg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="patient_profile.resx">
       <DependentUpon>patient_profile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prescription.resx">
+      <DependentUpon>prescription.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -245,6 +281,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>inside_470.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\simple18.png" />
     <None Include="Resources\Calender.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

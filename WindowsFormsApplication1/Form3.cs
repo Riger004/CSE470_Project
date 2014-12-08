@@ -100,5 +100,17 @@ namespace WindowsFormsApplication1
                 con.Close();
             }
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            login newform = new login();
+            this.Hide();
+            newform.Show();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

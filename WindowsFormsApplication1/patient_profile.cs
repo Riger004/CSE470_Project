@@ -158,5 +158,12 @@ namespace WindowsFormsApplication1
                 con.Close();
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            login newForm = new login();
+            newForm.Show();
+        }
     }
 }

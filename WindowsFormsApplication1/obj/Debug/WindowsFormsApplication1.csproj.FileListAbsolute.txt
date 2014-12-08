@@ -51,3 +51,65 @@ C:\Users\ASUS\Documents\GitHub\CSE470_Prototype\CSE470_Project-master\CSE470_Pro
 I:\CSE470_Prototype\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 I:\CSE470_Prototype\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 I:\CSE470_Prototype\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\bin\Debug\inside_470.mdf
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\bin\Debug\inside_470_log.ldf
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Appointment.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Doctor_s_Form.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.doctor_profile.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.login.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.patient_profile.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.registration.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\bin\Debug\inside_470.mdf
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\bin\Debug\inside_470_log.ldf
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Appointment.resources
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Doctor_s_Form.resources
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.doctor_profile.resources
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.doc_secure_code.resources
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.login.resources
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.patient_profile.resources
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.registration.resources
+C:\Users\Hamid\Desktop\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.prescription.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Admin.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Drug_profile.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Admin_Checker.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Prototype-master\CSE470_Prototype-master\CSE470_Project-master\CSE470_Project-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.new_doc_reg.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\bin\Debug\inside_470.mdf
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\bin\Debug\inside_470_log.ldf
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Admin.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Admin_Checker.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Appointment.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Doctor_s_Form.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.doctor_profile.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Drug_profile.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.login.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.new_doc_reg.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.patient_profile.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.prescription.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.registration.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\CSE470\CSE470\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

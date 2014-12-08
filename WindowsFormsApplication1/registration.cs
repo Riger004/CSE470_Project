@@ -27,7 +27,7 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
 
-             SqlConnection con = new SqlConnection(global::WindowsFormsApplication1.Properties.Settings.Default.inside_470ConnectionString);
+             //SqlConnection con = new SqlConnection(global::WindowsFormsApplication1.Properties.Settings.Default.inside_470ConnectionString);
             try {
 
                 string user_name = textBox1.Text;
@@ -70,6 +70,18 @@ namespace WindowsFormsApplication1
             finally {
                 con.Close();
             }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            login newForm = new login();
+            this.Hide();
+            newForm.Show();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

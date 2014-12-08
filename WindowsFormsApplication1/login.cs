@@ -22,6 +22,7 @@ namespace WindowsFormsApplication1
         {
 
             Form3 newForm = new Form3();
+            this.Hide();
             newForm.Show();
         }
 
@@ -39,7 +40,15 @@ namespace WindowsFormsApplication1
         private void button1_Click_1(object sender, EventArgs e)
         {
             registration form = new registration();
+            this.Hide();
             form.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Admin_Checker form = new Admin_Checker();
+            form.Show();
+            this.Hide();
         }
     }
 }
